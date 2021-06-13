@@ -78,3 +78,6 @@ let student = {
     console.log(`Hi, my name is ${this.name}. I'm ${this.age} years old.`);
   },
 };
+
+delete student.pass;
+console.log(student);
